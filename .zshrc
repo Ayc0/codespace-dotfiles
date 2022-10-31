@@ -3,6 +3,10 @@ export ZSH="$HOME/.oh-my-zsh"
 # Theme
 ZSH_THEME="codespaces"
 
+# Disable oh-my-zsh updates
+DISABLE_AUTO_UPDATE=true
+DISABLE_UPDATE_PROMPT=true
+
 # Plugins
 plugins=(
   git
