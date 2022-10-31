@@ -1,7 +1,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 # Theme
-ZSH_THEME="spaceship"
+ZSH_THEME="codespaces"
 
 # Plugins
 plugins=(
@@ -10,15 +10,6 @@ plugins=(
   zsh-autosuggestions
   zsh-syntax-highlighting
 )
-
-# Spaceship config
-SPACESHIP_PROMPT_FIRST_PREFIX_SHOW=true
-SPACESHIP_TIME_SHOW=true
-SPACESHIP_TIME_PREFIX="["
-SPACESHIP_TIME_SUFFIX="] "
-
-SPACESHIP_GCLOUD_SHOW=false
-SPACESHIP_AWS_SHOW=false
 
 # Load oh-my-zsh
 source $ZSH/oh-my-zsh.sh
@@ -40,7 +31,7 @@ gro() {
   git fetch origin
   git rebase "origin/$1"
 }
-grio () {
+grio() {
         git fetch origin
         git rebase -i --update-refs "origin/$1"
 }
