@@ -15,4 +15,5 @@ mv .zshrc "$HOME/.zshrc"
 
 # Git config
 git config --global push.autoSetupRemote true
-git config --global user.name "Ayc0"
+git config --global user.name Ayc0
+git config --global user.email ayc0.benj@gmail.com
