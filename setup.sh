@@ -12,6 +12,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 # mv "$HOME/.zshrc" "$HOME/.zshrc.back"
 mv .zshrc "$HOME/.zshrc"
+source "$HOME/.zshrc"
 
 # Git config
 git config --global push.autoSetupRemote true
