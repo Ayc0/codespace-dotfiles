@@ -18,3 +18,6 @@ source "$HOME/.zshrc"
 git config --global push.autoSetupRemote true
 git config --global user.name Ayc0
 git config --global user.email ayc0.benj@gmail.com
+
+# Use zsh by default, see https://docs.github.com/en/codespaces/customizing-your-codespace/changing-the-shell-in-a-codespace#setting-the-default-shell-over-ssh
+sudo chsh "$(id -un)" --shell "/usr/bin/zsh"
