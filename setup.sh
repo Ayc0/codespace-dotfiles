@@ -10,6 +10,9 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 # zsh-syntax-highlighting
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
+# ayc0
+git clone https://github.com/Ayc0/zsh-ayc0 ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/ayc0
+
 # mv "$HOME/.zshrc" "$HOME/.zshrc.back"
 mv .zshrc "$HOME/.zshrc"
 source "$HOME/.zshrc"
