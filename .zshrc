@@ -13,6 +13,7 @@ plugins=(
   yarn
   zsh-autosuggestions
   zsh-syntax-highlighting
+  ayc0
 )
 
 # Load oh-my-zsh
